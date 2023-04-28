@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="root">
       <div className="title">
-        <h1>Pathfinding Visualiser</h1>
+        <h1>Pathfinding Algorithm Visualizer</h1>
       </div>
       <div className="about">
         <p>Major Project Final Year (BE.B) <br></br>
