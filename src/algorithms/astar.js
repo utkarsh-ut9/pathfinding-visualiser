@@ -1,5 +1,3 @@
-// https://en.wikipedia.org/wiki/A*_search_algorithm
-
 const SQUARE_ROOT_OF_TWO = Math.sqrt(2);
 
 export function astar(grid, startNode, finishNode, allowDiagonals = false) {
@@ -84,6 +82,6 @@ function getNeighbors(node, grid, allowDiagonals) {
     if (row < grid.length - 1 && col < grid[0].length - 1)
       neighbors.push(grid[row + 1][col + 1]);
   }
-
   return neighbors.filter((neighbor) => !neighbor.isWall);
 }
+
